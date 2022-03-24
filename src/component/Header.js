@@ -1,15 +1,14 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HeaderContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   width: 100%;
   height: 100px;
-  padding: 0 16px;
   background-color: lightgray;
 `;
 
